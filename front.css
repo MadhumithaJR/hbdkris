@@ -1,0 +1,706 @@
+@charset "UTF-8";
+@-webkit-keyframes typed {
+  0%, 0.5436623094% {
+    content: "H";
+  }
+  0.5446623094%, 1.0883246187% {
+    content: "HA";
+  }
+  1.0893246187%, 1.6329869281% {
+    content: "HAP";
+  }
+  1.6339869281%, 2.1776492375% {
+    content: "HAPP";
+  }
+  2.1786492375%, 2.7223115468% {
+    content: "HAPPY";
+  }
+  2.7233115468%, 3.2669738562% {
+    content: "HAPPY ";
+  }
+  3.2679738562%, 3.8116361656% {
+    content: "HAPPY B";
+  }
+  3.8126361656%, 4.3562984749% {
+    content: "HAPPY BI";
+  }
+  4.3572984749%, 4.9009607843% {
+    content: "HAPPY BIR";
+  }
+  4.9019607843%, 5.4456230937% {
+    content: "HAPPY BIRT";
+  }
+  5.4466230937%, 5.9902854031% {
+    content: "HAPPY BIRTH";
+  }
+  5.9912854031%, 6.5349477124% {
+    content: "HAPPY BIRTHD";
+  }
+  6.5359477124%, 7.0796100218% {
+    content: "HAPPY BIRTHDA";
+  }
+  7.0806100218%, 7.6242723312% {
+    content: "HAPPY BIRTHDAY";
+  }
+  7.6252723312%, 8.1689346405% {
+    content: "HAPPY BIRTHDAY ";
+  }
+  8.1699346405%, 8.7135969499% {
+    content: "HAPPY BIRTHDAY K";
+  }
+  8.7145969499%, 9.2582592593% {
+    content: "HAPPY BIRTHDAY KR";
+  }
+  9.2592592593%, 9.8029215686% {
+    content: "HAPPY BIRTHDAY KRI";
+  }
+  9.8039215686%, 10.347583878% {
+    content: "HAPPY BIRTHDAY KRIS";
+  }
+  10.348583878%, 10.8922461874% {
+    content: "HAPPY BIRTHDAY KRISH";
+  }
+  10.8932461874%, 11.4369084967% {
+    content: "HAPPY BIRTHDAY KRISHN";
+  }
+  11.4379084967%, 12.310546841% {
+    content: "HAPPY BIRTHDAY KRISHNA";
+  }
+  12.311546841%, 12.7462766885% {
+    content: "HAPPY BIRTHDAY KRISHNAA";
+  }
+  12.7472766885%, 13.1820065359% {
+    content: "HAPPY BIRTHDAY KRISHNAA!";
+  }
+  13.1830065359%, 13.6177363834% {
+    content: "HAPPY BIRTHDAY KRISHNAA!";
+  }
+  13.6187363834%, 14.0534662309% {
+    content: "HAPPY BIRTHDAY KRISHNAA!";
+  }
+  14.0544662309%, 14.4891960784% {
+    content: "HAPPY BIRTHDAY KRISHNAA!";
+  }
+  24.4901960784%, 24.9249259259% {
+    content: "HAPPY BIRTHDAY KRISHNAA";
+  }
+  25.9259259259%, 26.3606557734% {
+    content: "HAPPY BIRTHDAY KRISHNA";
+  }
+  26.3616557734%, 26.7963856209% {
+    content: "HAPPY BIRTHDAY KRISHN";
+  }
+  26.7973856209%, 27.2321154684% {
+    content: "HAPPY BIRTHDAY KRISH";
+  }
+  27.2331154684%, 27.6678453159% {
+    content: "HAPPY BIRTHDAY KRIS";
+  }
+  27.6688453159%, 28.1035751634% {
+    content: "HAPPY BIRTHDAY KRI";
+  }
+  28.1045751634%, 28.5393050109% {
+    content: "HAPPY BIRTHDAY KR";
+  }
+  28.5403050109%, 28.9750348584% {
+    content: "HAPPY BIRTHDAY K";
+  }
+  28.9760348584%, 29.4107647059% {
+    content: "HAPPY BIRTHDAY ";
+  }
+  29.4117647059%, 29.8464945534% {
+    content: "HAPPY BIRTHDAY";
+  }
+  29.8474945534%, 30.2822244009% {
+    content: "HAPPY BIRTHDA";
+  }
+  30.2832244009%, 30.7179542484% {
+    content: "HAPPY BIRTHD";
+  }
+  30.7189542484%, 31.1536840959% {
+    content: "HAPPY BIRTH";
+  }
+  31.1546840959%, 31.5894139434% {
+    content: "HAPPY BIRT";
+  }
+  31.5904139434%, 32.0251437908% {
+    content: "HAPPY BIR";
+  }
+  32.0261437908%, 32.4608736383% {
+    content: "HAPPY BI";
+  }
+  32.4618736383%, 32.907496732% {
+    content: "​HAPPY B";
+  }
+  33.908496732%, 34.4521590414% {
+    content: "HAPPY ";
+  }
+  34.4531590414%, 34.9968213508% {
+    content: "HAPPY";
+  }
+  35.9978213508%, 36.5414836601% {
+    content: "HAPP";
+  }
+  36.5424836601%, 37.0861459695% {
+    content: "HAP";
+  }
+  37.0871459695%, 38.6308082789% {
+    content: "HA";
+  }
+  38.6318082789%, 39.1754705882% {
+    content: "H";
+  }
+  41.1764705882%, 41.7201328976% {
+    content: "";
+  }
+  41.7211328976%, 42.264795207% {
+    content: "C";
+  }
+  42.265795207%, 42.8094575163% {
+    content: "CL";
+  }
+  42.8104575163%, 43.3541198257% {
+    content: "CLI";
+  }
+  43.3551198257%, 43.8987821351% {
+    content: "CLIC";
+  }
+  43.8997821351%, 44.4434444444% {
+    content: "CLICK";
+  }
+  44.4444444444%, 44.9881067538% {
+    content: "CLICK ";
+  }
+  44.9891067538%, 45.5327690632% {
+    content: "CLICK B";
+  }
+  45.5337690632%, 46.0774313725% {
+    content: "CLICK BE";
+  }
+  46.0784313725%, 46.6220936819% {
+    content: "CLICK BEL";
+  }
+  46.6230936819%, 47.1667559913% {
+    content: "CLICK BELO";
+  }
+  47.1677559913%, 47.7114183007% {
+    content: "CLICK BELOW";
+  }
+  47.7124183007%, 48.25608061% {
+    content: "CLICK BELOW ";
+  }
+  48.25708061%, 48.8007429194% {
+    content: "CLICK BELOW F";
+  }
+  48.8017429194%, 49.3454052288% {
+    content: "CLICK BELOW FO";
+  }
+  49.3464052288%, 49.8900675381% {
+    content: "CLICK BELOW FOR";
+  }
+  49.8910675381%, 50.7637058824% {
+    content: "CLICK BELOW FOR ";
+  }
+  50.7647058824%, 51.1994357298% {
+    content: "CLICK BELOW FOR A";
+  }
+  51.2004357298%, 51.6351655773% {
+    content: "CLICK BELOW FOR A ";
+  }
+  52.6361655773%, 53.0708954248% {
+    content: "CLICK BELOW FOR A T";
+  }
+  53.0718954248%, 53.5066252723% {
+    content: "CLICK BELOW FOR A TR";
+  }
+  53.5076252723%, 53.9423551198% {
+    content: "CLICK BELOW FOR A TRE";
+  }
+  53.9433551198%, 54.3780849673% {
+    content: "CLICK BELOW FOR A TREA";
+  }
+  54.3790849673%, 54.8138148148% {
+    content: "CLICK BELOW FOR A TREAT";
+  }
+  54.8148148148%, 55.2495446623% {
+    content: "CLICK BELOW FOR A TREAT!";
+  }
+  55.2505446623%, 55.6852745098% {
+    content: "CLICK BELOW FOR A TREAT!";
+  }
+  55.6862745098%, 56.1210043573% {
+    content: "CLICK BELOW FOR A TREAT!";
+  }
+  56.1220043573%, 56.5567342048% {
+    content: "CLICK BELOW FOR A TREAT!";
+  }
+  60.5577342048%, 60.9924640523% {
+    content: "CLICK BELOW FOR A TREAT";
+  }
+  61.9934640523%, 62.4281938998% {
+    content: "CLICK BELOW FOR A TREA";
+  }
+  62.4291938998%, 62.8639237473% {
+    content: "CLICK BELOW FOR A TRE";
+  }
+  62.8649237473%, 63.2996535948% {
+    content: "CLICK BELOW FOR A TR";
+  }
+  63.3006535948%, 63.7353834423% {
+    content: "CLICK BELOW FOR A T";
+  }
+  65.7363834423%, 66.1711132898% {
+    content: "CLICK BELOW FOR A ";
+  }
+  66.1721132898%, 66.6068431373% {
+    content: "CLICK BELOW FOR A";
+  }
+  67.6078431373%, 68.0425729847% {
+    content: "CLICK BELOW FOR ";
+  }
+  68.0435729847%, 68.4783028322% {
+    content: "CLICK BELOW FOR";
+  }
+  69.4793028322%, 69.9140326797% {
+    content: "CLICK BELOW FO";
+  }
+  70.9150326797%, 71.3497625272% {
+    content: "CLICK BELOW F";
+  }
+  71.3507625272%, 71.7963856209% {
+    content: "​CLICK BELOW ";
+  }
+  72.7973856209%, 73.3410479303% {
+    content: "CLICK BELOW";
+  }
+  73.3420479303%, 73.8857102397% {
+    content: "CLICK BELO";
+  }
+  74.8867102397%, 75.430372549% {
+    content: "CLICK BEL";
+  }
+  75.431372549%, 75.9750348584% {
+    content: "CLICK BE";
+  }
+  76.9760348584%, 77.5196971678% {
+    content: "CLICK B";
+  }
+  77.5206971678%, 78.0643594771% {
+    content: "CLICK ";
+  }
+  78.0653594771%, 78.9379978214% {
+    content: "CLICK";
+  }
+  79.9389978214%, 80.3737276688% {
+    content: "CLIC";
+  }
+  80.3747276688%, 80.8094575163% {
+    content: "CLI";
+  }
+  81.8104575163%, 82.2451873638% {
+    content: "CL";
+  }
+  82.2461873638%, 83.6809172113% {
+    content: "C";
+  }
+  83.6819172113%, 84.1166470588% {
+    content: "";
+  }
+}
+@keyframes typed {
+  0%, 0.5436623094% {
+    content: "H";
+  }
+  0.5446623094%, 1.0883246187% {
+    content: "HA";
+  }
+  1.0893246187%, 1.6329869281% {
+    content: "HAP";
+  }
+  1.6339869281%, 2.1776492375% {
+    content: "HAPP";
+  }
+  2.1786492375%, 2.7223115468% {
+    content: "HAPPY";
+  }
+  2.7233115468%, 3.2669738562% {
+    content: "HAPPY ";
+  }
+  3.2679738562%, 3.8116361656% {
+    content: "HAPPY B";
+  }
+  3.8126361656%, 4.3562984749% {
+    content: "HAPPY BI";
+  }
+  4.3572984749%, 4.9009607843% {
+    content: "HAPPY BIR";
+  }
+  4.9019607843%, 5.4456230937% {
+    content: "HAPPY BIRT";
+  }
+  5.4466230937%, 5.9902854031% {
+    content: "HAPPY BIRTH";
+  }
+  5.9912854031%, 6.5349477124% {
+    content: "HAPPY BIRTHD";
+  }
+  6.5359477124%, 7.0796100218% {
+    content: "HAPPY BIRTHDA";
+  }
+  7.0806100218%, 7.6242723312% {
+    content: "HAPPY BIRTHDAY";
+  }
+  7.6252723312%, 8.1689346405% {
+    content: "HAPPY BIRTHDAY ";
+  }
+  8.1699346405%, 8.7135969499% {
+    content: "HAPPY BIRTHDAY K";
+  }
+  8.7145969499%, 9.2582592593% {
+    content: "HAPPY BIRTHDAY KR";
+  }
+  9.2592592593%, 9.8029215686% {
+    content: "HAPPY BIRTHDAY KRI";
+  }
+  9.8039215686%, 10.347583878% {
+    content: "HAPPY BIRTHDAY KRIS";
+  }
+  10.348583878%, 10.8922461874% {
+    content: "HAPPY BIRTHDAY KRISH";
+  }
+  10.8932461874%, 11.4369084967% {
+    content: "HAPPY BIRTHDAY KRISHN";
+  }
+  11.4379084967%, 12.310546841% {
+    content: "HAPPY BIRTHDAY KRISHNA";
+  }
+  12.311546841%, 12.7462766885% {
+    content: "HAPPY BIRTHDAY KRISHNAA";
+  }
+  12.7472766885%, 13.1820065359% {
+    content: "HAPPY BIRTHDAY KRISHNAA!";
+  }
+  13.1830065359%, 13.6177363834% {
+    content: "HAPPY BIRTHDAY KRISHNAA!";
+  }
+  13.6187363834%, 14.0534662309% {
+    content: "HAPPY BIRTHDAY KRISHNAA!";
+  }
+  14.0544662309%, 14.4891960784% {
+    content: "HAPPY BIRTHDAY KRISHNAA!";
+  }
+  24.4901960784%, 24.9249259259% {
+    content: "HAPPY BIRTHDAY KRISHNAA";
+  }
+  25.9259259259%, 26.3606557734% {
+    content: "HAPPY BIRTHDAY KRISHNA";
+  }
+  26.3616557734%, 26.7963856209% {
+    content: "HAPPY BIRTHDAY KRISHN";
+  }
+  26.7973856209%, 27.2321154684% {
+    content: "HAPPY BIRTHDAY KRISH";
+  }
+  27.2331154684%, 27.6678453159% {
+    content: "HAPPY BIRTHDAY KRIS";
+  }
+  27.6688453159%, 28.1035751634% {
+    content: "HAPPY BIRTHDAY KRI";
+  }
+  28.1045751634%, 28.5393050109% {
+    content: "HAPPY BIRTHDAY KR";
+  }
+  28.5403050109%, 28.9750348584% {
+    content: "HAPPY BIRTHDAY K";
+  }
+  28.9760348584%, 29.4107647059% {
+    content: "HAPPY BIRTHDAY ";
+  }
+  29.4117647059%, 29.8464945534% {
+    content: "HAPPY BIRTHDAY";
+  }
+  29.8474945534%, 30.2822244009% {
+    content: "HAPPY BIRTHDA";
+  }
+  30.2832244009%, 30.7179542484% {
+    content: "HAPPY BIRTHD";
+  }
+  30.7189542484%, 31.1536840959% {
+    content: "HAPPY BIRTH";
+  }
+  31.1546840959%, 31.5894139434% {
+    content: "HAPPY BIRT";
+  }
+  31.5904139434%, 32.0251437908% {
+    content: "HAPPY BIR";
+  }
+  32.0261437908%, 32.4608736383% {
+    content: "HAPPY BI";
+  }
+  32.4618736383%, 32.907496732% {
+    content: "​HAPPY B";
+  }
+  33.908496732%, 34.4521590414% {
+    content: "HAPPY ";
+  }
+  34.4531590414%, 34.9968213508% {
+    content: "HAPPY";
+  }
+  35.9978213508%, 36.5414836601% {
+    content: "HAPP";
+  }
+  36.5424836601%, 37.0861459695% {
+    content: "HAP";
+  }
+  37.0871459695%, 38.6308082789% {
+    content: "HA";
+  }
+  38.6318082789%, 39.1754705882% {
+    content: "H";
+  }
+  41.1764705882%, 41.7201328976% {
+    content: "";
+  }
+  41.7211328976%, 42.264795207% {
+    content: "C";
+  }
+  42.265795207%, 42.8094575163% {
+    content: "CL";
+  }
+  42.8104575163%, 43.3541198257% {
+    content: "CLI";
+  }
+  43.3551198257%, 43.8987821351% {
+    content: "CLIC";
+  }
+  43.8997821351%, 44.4434444444% {
+    content: "CLICK";
+  }
+  44.4444444444%, 44.9881067538% {
+    content: "CLICK ";
+  }
+  44.9891067538%, 45.5327690632% {
+    content: "CLICK B";
+  }
+  45.5337690632%, 46.0774313725% {
+    content: "CLICK BE";
+  }
+  46.0784313725%, 46.6220936819% {
+    content: "CLICK BEL";
+  }
+  46.6230936819%, 47.1667559913% {
+    content: "CLICK BELO";
+  }
+  47.1677559913%, 47.7114183007% {
+    content: "CLICK BELOW";
+  }
+  47.7124183007%, 48.25608061% {
+    content: "CLICK BELOW ";
+  }
+  48.25708061%, 48.8007429194% {
+    content: "CLICK BELOW F";
+  }
+  48.8017429194%, 49.3454052288% {
+    content: "CLICK BELOW FO";
+  }
+  49.3464052288%, 49.8900675381% {
+    content: "CLICK BELOW FOR";
+  }
+  49.8910675381%, 50.7637058824% {
+    content: "CLICK BELOW FOR ";
+  }
+  50.7647058824%, 51.1994357298% {
+    content: "CLICK BELOW FOR A";
+  }
+  51.2004357298%, 51.6351655773% {
+    content: "CLICK BELOW FOR A ";
+  }
+  52.6361655773%, 53.0708954248% {
+    content: "CLICK BELOW FOR A T";
+  }
+  53.0718954248%, 53.5066252723% {
+    content: "CLICK BELOW FOR A TR";
+  }
+  53.5076252723%, 53.9423551198% {
+    content: "CLICK BELOW FOR A TRE";
+  }
+  53.9433551198%, 54.3780849673% {
+    content: "CLICK BELOW FOR A TREA";
+  }
+  54.3790849673%, 54.8138148148% {
+    content: "CLICK BELOW FOR A TREAT";
+  }
+  54.8148148148%, 55.2495446623% {
+    content: "CLICK BELOW FOR A TREAT!";
+  }
+  55.2505446623%, 55.6852745098% {
+    content: "CLICK BELOW FOR A TREAT!";
+  }
+  55.6862745098%, 56.1210043573% {
+    content: "CLICK BELOW FOR A TREAT!";
+  }
+  56.1220043573%, 56.5567342048% {
+    content: "CLICK BELOW FOR A TREAT!";
+  }
+  60.5577342048%, 60.9924640523% {
+    content: "CLICK BELOW FOR A TREAT";
+  }
+  61.9934640523%, 62.4281938998% {
+    content: "CLICK BELOW FOR A TREA";
+  }
+  62.4291938998%, 62.8639237473% {
+    content: "CLICK BELOW FOR A TRE";
+  }
+  62.8649237473%, 63.2996535948% {
+    content: "CLICK BELOW FOR A TR";
+  }
+  63.3006535948%, 63.7353834423% {
+    content: "CLICK BELOW FOR A T";
+  }
+  65.7363834423%, 66.1711132898% {
+    content: "CLICK BELOW FOR A ";
+  }
+  66.1721132898%, 66.6068431373% {
+    content: "CLICK BELOW FOR A";
+  }
+  67.6078431373%, 68.0425729847% {
+    content: "CLICK BELOW FOR ";
+  }
+  68.0435729847%, 68.4783028322% {
+    content: "CLICK BELOW FOR";
+  }
+  69.4793028322%, 69.9140326797% {
+    content: "CLICK BELOW FO";
+  }
+  70.9150326797%, 71.3497625272% {
+    content: "CLICK BELOW F";
+  }
+  71.3507625272%, 71.7963856209% {
+    content: "​CLICK BELOW ";
+  }
+  72.7973856209%, 73.3410479303% {
+    content: "CLICK BELOW";
+  }
+  73.3420479303%, 73.8857102397% {
+    content: "CLICK BELO";
+  }
+  74.8867102397%, 75.430372549% {
+    content: "CLICK BEL";
+  }
+  75.431372549%, 75.9750348584% {
+    content: "CLICK BE";
+  }
+  76.9760348584%, 77.5196971678% {
+    content: "CLICK B";
+  }
+  77.5206971678%, 78.0643594771% {
+    content: "CLICK ";
+  }
+  78.0653594771%, 78.9379978214% {
+    content: "CLICK";
+  }
+  79.9389978214%, 80.3737276688% {
+    content: "CLIC";
+  }
+  80.3747276688%, 80.8094575163% {
+    content: "CLI";
+  }
+  81.8104575163%, 82.2451873638% {
+    content: "CL";
+  }
+  82.2461873638%, 83.6809172113% {
+    content: "C";
+  }
+  83.6819172113%, 84.1166470588% {
+    content: "";
+  }
+}
+@-webkit-keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+@keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+* {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+html, body {
+  height: 100%;
+}
+
+#hbd{
+  display: -webkit-box;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  background-color: #000;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.125), rgba(255, 255, 255, 0)), linear-gradient(to bottom, #000, #000 2px, #111 3px);
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: cover, 100% 3px;
+  font-size: calc(10px + 2vw);
+  font-family: 'VT323', monospace, sans-serif;
+  color: #3f3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 80%;
+  width: 100%;
+}
+#hbd::after {
+  content: "​";
+  position: relative;
+  top: -13px;
+  display: inline-block;
+  padding-right: 3px;
+  padding-right: calc(3px + 0.1vw);
+  border-right: 10px solid rgba(51, 255, 51, 0.75);
+  border-right: calc(1.1vw + 4px) solid rgba(51, 255, 51, 0.75);
+  text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
+  white-space: nowrap;
+  -webkit-animation: typed 18.36s linear 1s infinite, beam-blink 1s infinite;
+          animation: typed 18.36s linear 1s infinite, beam-blink 1s infinite;
+}
+@media (max-width: 575px) {
+  #hbd::after {
+    top: -33px;
+  }
+}
+#hbd:before {
+  content: "2 strings / 48 chars / 18.36s duration";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 3px 0;
+  background: #00f;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  white-space: pre-wrap;
+}
+@media (max-width: 575px) {
+  #hbd::before {
+    content: "2 strings \a 48 chars \a 18.36s duration";
+  }
+}
+
+#button{ 
+  border-radius:3px;
+  text-align: center;
+  background-color: #000000;
+  font-family: 'VT323', monospace, sans-serif;
+  color: #33ff33;
+  font-size: 25px;
+  margin: auto;
+  padding: 10px;
+  padding-bottom: 90px;
+
+}

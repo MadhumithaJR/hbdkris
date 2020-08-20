@@ -1,0 +1,81 @@
+body{
+	background-image:url(circleblues.png);
+	font-family:"Times New Roman", Arial, Helvetica, sans-serif;
+}
+
+.fade-in {
+animation: fadeIn ease 5s;
+-webkit-animation: fadeIn ease 5s;
+-moz-animation: fadeIn ease 5s;
+-o-animation: fadeIn ease 5s;
+-ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+#heading{
+	color: white;
+	text-align: center;
+	font-size: 45px;
+	margin-top: 30px;
+
+}
+
+#ajay{
+	display: inline;
+	float: left;
+	margin-top:30px;
+	font-size:24px;
+	padding:20px;
+	margin-left: 40px;
+	background-color:#e6ecff;
+	text-align: center;
+}
+
+#ani{
+	float: left;
+	margin-top:30px;
+	font-size:24px;
+	padding:20px;
+	margin-left: 50px;
+	background-color:#e6ecff;
+	text-align: center;
+}
+#mads{
+	display: inline;
+	float: right;
+	margin-top:30px;
+	font-size:24px;
+	padding:20px;
+	margin-right: 50px;
+	background-color:#e6ecff;
+	text-align: center;
+}
+
+#copy{
+	display: block;
+	color: white;
+	text-align: center;
+}
